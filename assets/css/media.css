@@ -1,0 +1,22 @@
+@media (max-width: 790px){
+    .rodape__line2{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+}
+
+@media (max-width: 513px){
+    nav{
+        margin: 0;
+        margin-left: -35px;
+    }
+    .header__container{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .rodape__mobile{
+        display: none;
+    }
+}
